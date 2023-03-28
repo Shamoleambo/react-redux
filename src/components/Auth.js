@@ -1,6 +1,6 @@
-import classes from './Auth.module.css';
+import classes from './Auth.module.css'
 
-const Auth = () => {
+function Auth() {
   return (
     <main className={classes.auth}>
       <section>
@@ -13,11 +13,11 @@ const Auth = () => {
             <label htmlFor='password'>Password</label>
             <input type='password' id='password' />
           </div>
-          <button>Login</button>
+          <button type='submit'>Login</button>
         </form>
       </section>
     </main>
-  );
-};
+  )
+}
 
-export default Auth;
+export default Auth
